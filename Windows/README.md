@@ -8,10 +8,28 @@ With an standard example how to use them.
 
 So almost all of the PowerShell files can be runned as they are.
 
+Get-ComputerManufacturer.ps1
+------------------
+Simply gets the Manufacturer information from Win32_ComputerSystem.
+
+Tested with:
+Windows PowerShell 5.1 and PowerShell 7+
+
+Get-ComputerModel.ps1
+------------------
+Will show computer model name.
+Uses Win32_ComputerSystem + Win32_ComputerSystemProduct for LENOVO.
+
+Tested with:
+Windows PowerShell 5.1 and PowerShell 7+
+
 Get-PingStatus.ps1
 ------------------
 One of my oldest functions.
 I used It before Test-Connection came and sometimes I use It today too.
+
+Tested with:
+Windows PowerShell 5.1 and PowerShell 7+
 
 Get-Windows10BuildInformation.ps1
 ---------------------------------
