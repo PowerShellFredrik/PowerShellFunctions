@@ -9,11 +9,11 @@ function Get-ExeAppInformation {
 	.PARAMETER Property
 		The Property that you want to get information from
 	.EXAMPLE
-		Get-EXEAppInformation -FilePath "JavaSetup8u144.exe" -Property "ProductName"
+		Get-EXEAppInformation -Path "JavaSetup8u144.exe" -Property "ProductName"
 	
 		Java Platform SE 8 U144
 	.EXAMPLE
-		Get-EXEAppInformation -FilePath "JavaSetup8u144.exe" -Property "ProductVersion"
+		Get-EXEAppInformation -Path "JavaSetup8u144.exe" -Property "ProductVersion"
 	
 		8.0.1440.1
 	.NOTES
@@ -24,14 +24,14 @@ function Get-ExeAppInformation {
 	#>
     [CmdletBinding()]
     Param ([Parameter(Mandatory = $true)]
-        $FilePath,
+        $Path,
         [Parameter(Mandatory = $false)]
         [ValidateSet("ProductName","ProductVersion","CompanyName","Language")]
         $Property
     )
     try {
 		
-        $ExeAppInformation = ((Get-Itemproperty $FilePath).VersionInfo).$($Property)
+        $ExeAppInformation = ((Get-Itemproperty -Path $Path).VersionInfo).$($Property)
         return $ExeAppInformation
 		
     }
@@ -39,3 +39,5 @@ function Get-ExeAppInformation {
         throw "Failed to get Exe application information. Error: {0}." -f $_
     }
 }
+
+Get-ExeAppInformation -Path "C:\Code\VSCodeUserSetup-x64-1.62.2.exe" -Property ProductVersion
