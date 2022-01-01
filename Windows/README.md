@@ -16,6 +16,8 @@ Simply gets the Manufacturer information from Win32_ComputerSystem.
 Tested with:
 Windows PowerShell 5.1 and PowerShell 7+
 
+![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Windows/Pictures/Get-ComputerManufacturer01.png?raw=true)
+
 Get-ComputerModel.ps1
 ------------------
 Will show computer model name.
