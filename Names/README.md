@@ -1,4 +1,4 @@
-# Windows
+# Names
 
 These are my functions for working with names.
 
