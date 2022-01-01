@@ -4,7 +4,7 @@ function Get-ExeAppInformation {
 		Gets Exe Application Information from a EXE file
 	.DESCRIPTION
 		This function will check if the selected exe file have the application information that we wants.
-	.PARAMETER FilePath
+	.PARAMETER Path
 		Path to the EXE file
 	.PARAMETER Property
 		The Property that you want to get information from
@@ -40,4 +40,4 @@ function Get-ExeAppInformation {
     }
 }
 
-Get-ExeAppInformation -Path "C:\Code\VSCodeUserSetup-x64-1.62.2.exe" -Property ProductVersion
+Get-ExeAppInformation -Path "C:\Code\VSCodeUserSetup-x64-1.62.2.exe" -Property 
