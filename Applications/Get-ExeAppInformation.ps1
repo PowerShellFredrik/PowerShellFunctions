@@ -39,5 +39,3 @@ function Get-ExeAppInformation {
         throw "Failed to get Exe application information. Error: {0}." -f $_
     }
 }
-
-Get-ExeAppInformation -Path "C:\Code\VSCodeUserSetup-x64-1.62.2.exe" -Property 
