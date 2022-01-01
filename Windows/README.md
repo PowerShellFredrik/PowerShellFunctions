@@ -26,6 +26,8 @@ Uses Win32_ComputerSystem + Win32_ComputerSystemProduct for LENOVO.
 Tested with:
 Windows PowerShell 5.1 and PowerShell 7+
 
+![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Windows/Pictures/Get-ComputerModel01.png?raw=true)
+
 Get-PingStatus.ps1
 ------------------
 One of my oldest functions.
