@@ -31,3 +31,22 @@ Windows PowerShell 5.1 and PowerShell 7+
 And It's not problem to use it with an if statement.
 
 ![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-InstalledApplications02.png?raw=true)
+
+Get-UninstallString.ps1
+------------------
+Shows uninstall string/strings for installed application/applications.
+
+Tested with:
+Windows PowerShell 5.1 and PowerShell 7+
+
+All uninstall strings
+
+![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-UninstallString01.png?raw=true)
+
+All uninstall strings for Citrix
+
+![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-Get-UninstallString02.png?raw=true)
+
+Uninstall string for Chrome
+
+![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-Get-UninstallString03.png?raw=true)
