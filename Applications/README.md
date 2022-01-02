@@ -50,3 +50,8 @@ All uninstall strings for Citrix
 Uninstall string for Chrome
 
 ![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-UninstallString04.png?raw=true)
+
+Invoke-DownloadApplication.ps1
+------------------
+It's a simple function for downloading applications from the internet.
+
