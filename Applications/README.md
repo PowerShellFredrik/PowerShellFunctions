@@ -45,8 +45,8 @@ All uninstall strings
 
 All uninstall strings for Citrix
 
-![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-Get-UninstallString02.png?raw=true)
+![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-UninstallString02.png?raw=true)
 
 Uninstall string for Chrome
 
-![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-Get-UninstallString03.png?raw=true)
+![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-UninstallString03.png?raw=true)
