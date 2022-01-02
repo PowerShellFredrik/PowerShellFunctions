@@ -19,3 +19,11 @@ Windows PowerShell 5.1 and PowerShell 7+
 
 ![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-ExeAppInformation01.png?raw=true)
 
+Get-InstalledApplications.ps1
+------------------
+Shows all installed applications or a single installed application on a local computer.
+
+Tested with:
+Windows PowerShell 5.1 and PowerShell 7+
+
+![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-InstalledApplications01.png?raw=true)
