@@ -27,3 +27,7 @@ Tested with:
 Windows PowerShell 5.1 and PowerShell 7+
 
 ![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-InstalledApplications01.png?raw=true)
+
+And It's not problem to use it with an if statement.
+
+![alt text](https://github.com/PowerShellFredrik/PowerShellFunctions/blob/main/Applications/Pictures/Get-InstalledApplications02.png?raw=true)
